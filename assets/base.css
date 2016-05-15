@@ -124,6 +124,15 @@ footer {
 	color: #20566E;
 }
 
+.table tr.stripe {
+	background-color: #FAFAFA;
+}
+
+.btn-subscription {
+	display: block;
+	width: 100%;
+	min-height: 60px;
+}
 
 
 .carousel {
