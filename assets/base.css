@@ -57,6 +57,44 @@ SCHEME
 #CEE9F4
 */
 
+.bgcolor-1 {
+	background-color: #183641 !important;
+}
+.bgcolor-2 {
+	background-color: #20566E !important;
+}
+.bgcolor-3 {
+	background-color: #479AB8 !important;
+}
+.bgcolor-4 {
+	background-color: #6EB4C0 !important;
+}
+.bgcolor-5 {
+	background-color: #93D0C9 !important;
+}
+.bgcolor-6 {
+	background-color: #CEE9F4 !important;
+}
+
+.color-1 {
+	color: #183641 !important;
+}
+.color-2 {
+	color: #20566E !important;
+}
+.color-3 {
+	color: #479AB8 !important;
+}
+.color-4 {
+	color: #6EB4C0 !important;
+}
+.color-5 {
+	color: #93D0C9 !important;
+}
+.color-6 {
+	color: #CEE9F4 !important;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
 	color: #20566E;
@@ -95,6 +133,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 45px;
     font-family: 'Olivier';
     color: #183641;
+}
+
+.font-olivier {
+	font-family: 'Olivier';
 }
 
 .section-title {
@@ -155,14 +197,14 @@ footer {
 
 .carousel .item {
 	height: 500px;
-	background-color: #777;
+	background-color: #FFF;
 }
 .carousel-inner > .item > img {
 	position: absolute;
 	top: 0;
 	left: 0;
 	min-width: 100%;
-	// height: 500px;
+	height: 500px;
 }
 
 
@@ -202,4 +244,21 @@ footer {
 .service-img-container {
 	height: 150px;
 	position: relative;
+}
+
+table-services ul li{
+	margin-bottom:8px;
+}
+
+.carousel-caption {
+    text-shadow: 0 2px 6px rgba(0, 0, 0, .7);
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: .1;
 }
